@@ -69,6 +69,10 @@ Decisions about typography colours etc to be made once basic layout of website h
 2.
 3.
 
+## Bugs
+1. Add images to carousel
+    1. Fix:
+
 ## Technologies used
 * Bootstrap
 * Google fonts
