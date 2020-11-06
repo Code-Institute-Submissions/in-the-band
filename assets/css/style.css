@@ -1,5 +1,7 @@
+/* Jumbotron */
+
 .jumbotron {
-  background-image: url("../images/b&w.jpg");
+  background-image: url("../images/badelf2.png");
   background-size: cover;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
@@ -7,6 +9,28 @@
   background-size: 100% 100%;
 }
 
+/* Meet the band */
+
+.container {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.container h1 {
+    padding-bottom: 25px;
+}
+
+.container h2 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
 .push-spaces {
     height: 700px;
+}
+
+/* Colours */
+.footer-colour {
+    background-color: #343a40;
+    color: #fff;
 }
