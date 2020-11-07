@@ -78,6 +78,7 @@ Decisions about typography colours etc to be made once basic layout of website h
 * Google fonts
 * Font awesome
 * https://www.w3schools.com/
+* www.validator.w3.org
 
 ## Testing
 

@@ -1,3 +1,9 @@
+body {
+    font-family: "Roboto+Slab", sans-serif;
+}
+
+/* INDEX/Main/Home */
+
 /* Jumbotron */
 
 .jumbotron {
@@ -16,13 +22,23 @@
     text-align: center;
 }
 
+.container img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 .container h1 {
     padding-bottom: 25px;
 }
 
 .container h2 {
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.container p {
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 .push-spaces {
@@ -32,5 +48,76 @@
 /* Colours */
 .footer-colour {
     background-color: #343a40;
-    color: #fff;
+}
+
+nav a {
+    color: #ffa52f;
+    
+}
+
+div a {
+    color: #14a78f;
+}
+
+footer p {
+    color: #ffa52f;
+}
+
+footer p a {
+        color: #14a78f;
+}
+
+nav a:hover{
+    color: #14a78f;
+}
+
+div a:hover {
+    color: #ffa52f;
+}
+
+footer p:hover {
+    color: #14a78f;
+}
+
+footer p a:hover {
+        color: #ffa52f;
+}
+
+
+/* Meet the band images */
+.img-mtb {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+/* footer */
+
+footer p {
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+footer p a {
+    padding: 10px;
+}
+
+footer p {
+    padding-top: 12px;
+    scroll-padding-bottom: 10px;
+}
+
+/* Gallery */
+
+.gal-title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+  
+img {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
