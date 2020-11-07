@@ -121,3 +121,20 @@ img {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+/* Tour Dates */
+
+.tour {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.table-text {
+    text-align: center;
+}
+
+.table-border {
+ margin-bottom: 0;
+}
+
