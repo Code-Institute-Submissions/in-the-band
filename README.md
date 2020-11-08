@@ -70,8 +70,16 @@ Decisions about typography colours etc to be made once basic layout of website h
 3.
 
 ## Bugs
-1. Add images to carousel
-    1. Fix:
+1. Meet the band images were oval rather than round
+    1. Fix: Found conflicting CSS content created for different sections of the website and amended this so that the CSS was under unique classes
+2. I wanted the text in the footer bar to be centered vertically however, I was unable to find a simple way for this to work   
+    1. Fix: I added padding to the footer to enable the text to be vertically aligned. This had the added bonus of making the footer look better as it was larger
+3. Hero imagge on home/index.html page is not resizing correctly on smaller screens
+    1. Fix: I replaced the jumbotron with a just img html rather than adding the url in the css. One side affect was that this removed the centering of the text and images in the meet the band section.
+4. Images in the meet the band section are impacted as per above Bug
+    1. Fix: The mtb-style class had been in the removed html of the jumbotron. Re-added this to the meet the band section.
+5. Adding an embeded youtube video caused the sizing of the page to show as justified to the left. I believe this is because it made the page width bigger but this didnt apply to the other content
+    1. Fix: I used the bootstrap example to simplify the code proviuded by youtube. This removed some of the styling elements youtube added and ensured the video was fully responsive without impacting the layout of the remainder of the page
 
 ## Technologies used
 * Bootstrap
@@ -79,6 +87,7 @@ Decisions about typography colours etc to be made once basic layout of website h
 * Font awesome
 * https://www.w3schools.com/
 * www.validator.w3.org
+* https://stackoverflow.com/
 
 ## Testing
 
@@ -86,8 +95,19 @@ Decisions about typography colours etc to be made once basic layout of website h
 
 ## Credits
 
-## Content
+### Content
+The content was created by the web developer based on the general makeup of Badelf.
 
-## Media
+Some elements are fiction created to make the website engaging
+### Media
+* Youtube - Metallica - Nothing else matters
+    * https://www.youtube.com/watch?v=tAGnKpE4NCI
+* Badelf's facebook image gallery:
+    * https://www.facebook.com/Badelfmusic/photos
+* Badelf members personal facebook image galleries:
+    * https://www.facebook.com/dannyboylarcombe/photos
+    * https://www.facebook.com/richey.shrimpton/photos
+    * https://www.facebook.com/hendrie.jooste/photos
+    * It is deliberate that only three of the four band members sites have been referenced. The fourth member does not have a social media account
 
-## Acknowledgements
+### Acknowledgements

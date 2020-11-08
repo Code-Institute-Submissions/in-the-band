@@ -19,7 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <title>BADELF</title>
@@ -53,18 +58,59 @@
               <a class="nav-link" href="tour-dates.html">Tour Dates</a>
             </li>
           </ul>
+          <button type="button" class="btn btn-link btn-style btn-colour btn-style" data-toggle="modal" data-target="#exampleModal">
+            Join Our Mailing List!
+          </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <!-- Jumbotron with hero image -->
-      <div class="container">
-        <div class="jumbotron jumbotron-fluid push-spaces"></div>
+      <!-- Modal/popup/Sign up for mailing list -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Join Our Mailing List!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+             <div class="modal-body">
+            <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control box-style" id="exampleInputName1" aria-describedby="NameHelp" placeholder="First Name">
+     <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" class="form-control box-style" id="exampleInputName1" aria-describedby="NameHelp" placeholder="Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control box-style" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label box-style" for="exampleCheck1">I'm happy for you to email me all the latest gossip!</label>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+</form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">
+                Submit!
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="container marketing">
-        <!-- Four columns of text below the carousel/Meet the band -->
+      <!-- Hero image -->
+      <img
+        class="img-fluid w-100 hero-img"
+        src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/22528496_598894886901170_2156421866054703068_n.jpg?_nc_cat=102&amp;ccb=2&amp;_nc_sid=e3f864&amp;_nc_ohc=7AYy8kh9778AX_sRpdJ&amp;_nc_ht=scontent-lhr8-1.xx&amp;oh=409312f11e79237be576ad0fb09be271&amp;oe=5FCD1E1A"
+        alt=""
+      />
+      <!-- Four columns of text below the carousel/Meet the band -->
+      <div class="container marketing mtb-style">
         <h1>Meet The Band</h1>
         <div class="row">
           <div class="col-sm">
@@ -107,19 +153,33 @@
         </div>
         <!-- /.row -->
       </div>
+
+      <!-- <div class="container embed-responsive-item vid-style ">
+    <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div> -->
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/tAGnKpE4NCI"
+          allowfullscreen
+        ></iframe>
+      </div>
+
       <!-- /.container -->
 
       <!-- FOOTER -->
-      <footer class="container-fluid footer-colour ">
+      <footer class="container-fluid footer-colour">
         <p class="float-right">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
         </p>
-        <p>
-        <a href="#">Join Our Mailing List</a>
-        </p>
+
+        <button type="button" class="btn btn-link btn-colour btn-style-2" data-toggle="modal" data-target="#exampleModal">
+            Join Our Mailing List!
+          </button>
       </footer>
     </main>
 

@@ -58,86 +58,127 @@
               <a class="nav-link" href="tour-dates.html">Tour Dates</a>
             </li>
           </ul>
+          <button type="button" class="btn btn-link btn-style btn-colour btn-style" data-toggle="modal" data-target="#exampleModal">
+            Join Our Mailing List!
+          </button>
         </div>
       </nav>
     </header>
 
     <main>
+
+      <!-- Modal/popup/Sign up for mailing list -->
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Join Our Mailing List!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+             <div class="modal-body">
+            <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">First Name</label>
+    <input type="text" class="form-control box-style" id="exampleInputName1" aria-describedby="NameHelp" placeholder="First Name">
+     <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" class="form-control box-style" id="exampleInputName1" aria-describedby="NameHelp" placeholder="Last Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email Address</label>
+    <input type="email" class="form-control box-style" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label box-style" for="exampleCheck1">I'm happy for you to email me all the latest gossip!</label>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+</form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-success" data-dismiss="modal">
+                Submit!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Image Gallery-->
       <section class="photo">
         <h1 class="gal-title">Image Gallery</h1>
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/22528496_598894886901170_2156421866054703068_n.jpg?_nc_cat=102&ccb=2&_nc_sid=e3f864&_nc_ohc=7AYy8kh9778AX_sRpdJ&_nc_ht=scontent-lhr8-1.xx&oh=409312f11e79237be576ad0fb09be271&oe=5FCD1E1A"
           alt=""
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/10628797_10152356771002691_5605692941835503974_o.jpg?_nc_cat=108&ccb=2&_nc_sid=19026a&_nc_ohc=Dp1cZgJsSBQAX8TYtfr&_nc_ht=scontent-lht6-1.xx&oh=a27ae5d6fae7ea7ce12a075abbfbf84e&oe=5FCC7326"
           alt="moody at the wedding"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/12799411_340688119388516_2837964765443048564_n.jpg?_nc_cat=110&ccb=2&_nc_sid=19026a&_nc_ohc=JHrvOsGGqCAAX8kHI-9&_nc_ht=scontent-lhr8-1.xx&oh=8bea1c985057f8420a315a5ac1efcf1c&oe=5FCD3995"
           alt="practice"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/10347714_284550391668956_4506538100311844894_n.jpg?_nc_cat=105&ccb=2&_nc_sid=19026a&_nc_ohc=LwSE4U9T1VkAX-ECq4J&_nc_ht=scontent-lht6-1.xx&oh=701fdbf61762e6c7c629fcf05db9a967&oe=5FCE560D"
           alt="old angel"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t31.0-8/1899802_231442943646368_531626943_o.jpg?_nc_cat=106&ccb=2&_nc_sid=19026a&_nc_ohc=_NAL93w-CM0AX-Fcnvk&_nc_ht=scontent-lht6-1.xx&oh=32a82bbea4f0bf61bd6f3296c85facc8&oe=5FCE5229"
           alt="funny faces"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/10415724_10152384409382691_435022867970658273_n.jpg?_nc_cat=105&ccb=2&_nc_sid=174925&_nc_ohc=HeYaL82oitAAX9nXsbk&_nc_ht=scontent-lht6-1.xx&oh=935997e30fc9e1d8561d6f6e5f1f4d97&oe=5FCC62A4"
           alt="hendrie guitar"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/10394588_10153913152760605_3838819453768608966_n.jpg?_nc_cat=111&ccb=2&_nc_sid=e3f864&_nc_ohc=nQEyhJKvRbEAX98ejxL&_nc_ht=scontent-lhr8-1.xx&oh=cf2dbfd1978009f8944e6136d636c80b&oe=5FCBD6B0"
           alt="fans"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/10398094_10153913032535605_4425298624079589150_n.jpg?_nc_cat=107&ccb=2&_nc_sid=8bfeb9&_nc_ohc=Eg6Fj5E4l8EAX-SZxoP&_nc_ht=scontent-lhr8-1.xx&oh=d80f196cc2219ff4969bec487ffd7b8f&oe=5FCE4D80"
           alt="no drums?"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/12801582_10153913031700605_901275099785609388_n.jpg?_nc_cat=102&ccb=2&_nc_sid=8bfeb9&_nc_ohc=psWqNoASzwsAX_d-JXn&_nc_ht=scontent-lhr8-1.xx&oh=f016d5a121b87a75a017d6c0d78804b1&oe=5FCCC2B8"
           alt="pose with guitar"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/12799167_10153913031615605_5882390344038186791_n.jpg?_nc_cat=104&ccb=2&_nc_sid=8bfeb9&_nc_ohc=ayZCazvrB3UAX9m4kTW&_nc_ht=scontent-lhr8-1.xx&oh=0597f110d4c2406d9589d72f5616922d&oe=5FCD0111"
           alt="singing"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/3385_10153913031385605_4218560943197440050_n.jpg?_nc_cat=110&ccb=2&_nc_sid=8bfeb9&_nc_ohc=72FratbEEvgAX8jRYut&_nc_ht=scontent-lhr8-1.xx&oh=2b36cf5d0cccdf49f690570d5b468381&oe=5FCAF694"
           alt="guitar"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/12734167_10153913031245605_1323979620377345930_n.jpg?_nc_cat=105&ccb=2&_nc_sid=8bfeb9&_nc_ohc=75E1JvHT8cwAX9xEFio&_nc_ht=scontent-lht6-1.xx&oh=02140ecd235c00a0de9e27dfa1bfc47e&oe=5FCAA103"
           alt="drums"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/1043947_10153913031175605_7875813976683936610_n.jpg?_nc_cat=108&ccb=2&_nc_sid=8bfeb9&_nc_ohc=YIKzzvo5q94AX8HMJIS&_nc_ht=scontent-lht6-1.xx&oh=d31e8d3bab56bee9566d948a9ceda640&oe=5FCE2040"
           alt="more drums"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/12801568_10153913030160605_8978893119719422031_n.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=WvVlZPMrfb8AX-2udDJ&_nc_ht=scontent-lhr8-1.xx&oh=29b7cc22c8a7d5b5b15f3f9734b0a3aa&oe=5FCAE951"
           alt="the band"
         />
         <img
-          class="img-fluid w-100"
+          class="img-fluid w-100 gal-img"
           src="https://scontent-lhr8-1.xx.fbcdn.net/v/t1.0-9/11701096_10153913029635605_8780857654353367123_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_ohc=gUHJgW_WwjsAX_Kup1P&_nc_ht=scontent-lhr8-1.xx&oh=5694e8f86c48a4b57676694c1dcba46e&oe=5FCAD4AB"
           alt="they bought one!"
         />
@@ -151,9 +192,9 @@
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-youtube"></i></a>
         </p>
-        <p>
-          <a href="#">Join Our Mailing List</a>
-        </p>
+             <button type="button" class="btn btn-link btn-colour btn-style-2" data-toggle="modal" data-target="#exampleModal">
+            Join Our Mailing List!
+          </button>
       </footer>
     </main>
 
