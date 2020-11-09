@@ -1,6 +1,6 @@
-# In The Band
+# [In The Band](https://hollyford.github.io/in-the-band/)
 ## This website showcases BADELF which is a band based in Nottingham, UK
- 
+
 ### UX
 #### Site user's goals:
 The users are potential and existing fans who wish to know more about the band. 
@@ -50,10 +50,10 @@ The users are potential and existing fans who wish to know more about the band.
 ### Skeleton
  
 #### Mobile 
-[Wireframes - mobile](assets/readme-links/wireframe-mobile.bmpr)
+[Wireframes - mobile](assets/readme-links/wireframe-mobile.pdf)
  
 #### Desktop
-[Wireframes - desktop](assets/readme-links/wireframe-desktop.bmpr)
+[Wireframes - desktop](assets/readme-links/wireframe-desktop.pdf)
  
 ### Surface
 Decisions about typography colours etc to be made once basic layout of website has been created
@@ -89,10 +89,32 @@ Decisions about typography colours etc to be made once basic layout of website h
 * Font awesome - https://fontawesome.com/
 * www.validator.w3.org
 * http://www.css-validator.org/
- 
- 
+* Git
+* Gitpod
+* GitHub
+* Google Chrome
+* http://www.responsinator.com/
+
 ## Testing
- 
+1. Tested website responsiveness using http://www.responsinator.com/
+    1. Results: The website is responsive to all device sizes
+2. Tested the image size to ensure no image is to large and impacting the website loading times. I used the Google Inspect - Network
+    1. Results: All images showing as green in the results. The total website loading time is 603ms
+3. Tested the HTML using https://validator.w3.org/
+    1. Results - index.html: Document checking completed. No errors or warnings to show.
+    2. Results - gallery.html: Document checking completed. No errors or warnings to show.
+    3. Results - tour-dates.html: Document checking completed. No errors or warnings to show.
+4. Tested the CSS using http://www.css-validator.org/
+    1. Results - style.css: Congratulations! No Error Found.
+5. Tested the website on the Google Chrome browser Version 86.0.4240.183 (Official Build) (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+6. Tested the website on the Microsoft Edge browser Version 86.0.622.63 (Official build) (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+7. Tested the website on the Internet Explorer browser Version 11.572.19041.0
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+8. Tested the website on the Firefox browser Version 82.0.3 (64-bit)
+    1. Results: The website was responsive and the elements performed in the way they were intended to
+
 ## Deployment
 1. Create a new repository or access an existing repository
 2. Click the green Gitpod button to launch the project in Gitpod
@@ -104,23 +126,21 @@ Decisions about typography colours etc to be made once basic layout of website h
 8. Scroll to the GitHub Pages section and select a publishing source
 9. Click 'Save'
 10. Click the URL created within the Settings - GitHub Pages section
- 
- 
+
 ## Credits
 I used these sources for example code which I then edited. They were also brilliant sources for troubleshooting the bugs I found along the way
- 
 * https://stackoverflow.com/
 * https://www.w3schools.com/
 * https://getbootstrap.com/
- 
 ### Content
 The content was created by the web developer based on the general makeup of the band Badelf.
  
 Some elements are fiction created to make the website engaging
  
 ### Media
-* Youtube - Metallica - Nothing else matters
+* As the band do not have any videos published online, I used: Youtube - Metallica - Nothing else matters
     * https://www.youtube.com/watch?v=tAGnKpE4NCI
+
 * Badelf's facebook image gallery:
     * https://www.facebook.com/Badelfmusic/photos
 * Badelf members personal facebook image galleries:
@@ -138,4 +158,3 @@ Band members who allowed me to use their personal facebook pages, their images a
 * Richey Shrimpton
  
 My mentor Antonio Rodriguez who has provided me with guidance and support through the project
-
