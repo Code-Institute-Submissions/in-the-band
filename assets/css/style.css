@@ -128,7 +128,7 @@ footer p a:hover {
 .img-mtb {
     width: 170px;
     height: 170px;
-    border-radius: 50%;
+    border-radius: 50%,;
 }
 
 /* footer */
@@ -164,19 +164,19 @@ footer p {
 
 /* Tour Dates */
 
-.tour {
-    padding-top: 100px;
-    padding-bottom: 30px;
+.tour-head-style {
+    padding-top: 80px;
+    padding-bottom: 40px;
     text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    color: #ffa52f;
 }
 
-.table-text {
+.tour-style {
+    padding-top: 20px;
+    padding-bottom: 40px;
     text-align: center;
+    color: #14a78f;
 }
-
-.table-border {
- padding-left: 20px;
- padding-right: 20px;
- border-bottom: 20px;
-}
-

@@ -60,14 +60,14 @@ Decisions about typography colours etc to be made once basic layout of website h
 
 ## Features
 #### Existing
-1.
-2.
-3.
+1. Hero image
+2. Meet the band
+3. Youtube video
+4. Image gallery
+5. Tour dates list
 
 #### Left to implement
-1.
-2.
-3.
+1. Sound file
 
 ## Bugs
 1. Meet the band images were oval rather than round
@@ -80,6 +80,8 @@ Decisions about typography colours etc to be made once basic layout of website h
     1. Fix: The mtb-style class had been in the removed html of the jumbotron. Re-added this to the meet the band section.
 5. Adding an embeded youtube video caused the sizing of the page to show as justified to the left. I believe this is because it made the page width bigger but this didnt apply to the other content
     1. Fix: I used the bootstrap example to simplify the code proviuded by youtube. This removed some of the styling elements youtube added and ensured the video was fully responsive without impacting the layout of the remainder of the page
+6. The table added to display the tour dates was not fully responsive meaning the end user needed to scroll on mobile devices
+    1. Fix: Rather than using a table, I recreated the content in the bootstrap grid system. The content is now responsive and wrapps appropriately so no scolling is required
 
 ## Technologies used
 * Bootstrap
