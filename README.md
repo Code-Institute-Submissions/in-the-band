@@ -50,10 +50,10 @@ The users are potential and existing fans who wish to know more about the band.
 ### Skeleton
  
 #### Mobile 
-[Wireframes - mobile](..assets/readme-links/wireframe-mobile.pdf)
+[Wireframes - mobile](https://github.com/hollyford/in-the-band/blob/master/assets/readme-links/Wireframe-mobile.pdf)
  
 #### Desktop
-[Wireframes - desktop](..assets/readme-links/wireframe-desktop.pdf)
+[Wireframes - desktop](https://github.com/hollyford/in-the-band/blob/master/assets/readme-links/Wireframe-desktop.pdf)
  
 ### Surface
 Decisions about typography colours etc to be made once basic layout of website has been created
